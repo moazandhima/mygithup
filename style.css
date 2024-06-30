@@ -5,6 +5,7 @@
     height: 200px;
     border-radius: 10px;
     position: relative;
+    display: flex;
 }
 
 #mainDiv h1 {
@@ -12,6 +13,14 @@
     color: white;
 }
 
+#mainDiv img {
+    width: 100px;
+    height: 150px;
+    justify-content: center;
+    justify-items: auto;
+    
+
+}
 
 
 #mainDiv::before {
