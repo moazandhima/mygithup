@@ -1,0 +1,58 @@
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+#mainDiv {
+    width: 80%;
+    max-width: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 4px solid #6B6B84;
+    background-size: cover;
+    background-image: linear-gradient(blue,red);
+}
+img {
+    max-width: 200px;
+    border-radius: 100%;
+}
+
+#facebookButton {
+    color: white;
+    background-color: blue;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+}
+#whatsappButton {
+    background-color: green;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+
+#facebookButton:hover {
+cursor: pointer;
+}
+#facebookButton:active {
+    background-color: rgb(40, 40, 129);
+}
+#whatsappButton:hover {
+    cursor: pointer;
+}
+#whatsappButton:active {
+    background-color: greenyellow;
+}
+
+
